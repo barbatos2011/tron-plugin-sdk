@@ -17,6 +17,7 @@
 
 #include "tron_plugin_interface.h"
 #include "lib_standard_app/swap_lib_calls.h"  // RUN_APPLICATION
+#include "caller_api.h"
 
 // Functions implemented by the plugin
 void handle_init_contract(tronPluginInitContract_t *parameters);
